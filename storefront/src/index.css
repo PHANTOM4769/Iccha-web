@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body, #root { height: 100%; }
+  body { @apply antialiased text-gray-800 bg-white; }
+  a { @apply text-inherit no-underline; }
+}
+
+@theme {
+  --container-2xl: 1280px;
+  --color-primary: #0ea5e9; /* sky-500 */
+  --color-primary-600: #0284c7; /* sky-600 */
+}
